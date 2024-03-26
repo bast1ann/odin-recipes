@@ -1,0 +1,41 @@
+* {
+  font-family: "Courier New", "Times New Roman", sans-serif;
+}
+
+img {
+  width: 500px;
+  height: auto;
+}
+
+#spaghetti-img {
+  width: 200px;
+  height: 100px;
+}
+
+.soup-img {
+  width: 370px;
+  height: auto;
+}
+
+#title {
+  font-size: 35px;
+  background-color: red;
+}
+
+a {
+  background-color: orange;
+  color: white;
+}
+
+h3 {
+  color: cyan;
+}
+
+.sub-title {
+  color: purple;
+  font-size: 20px;
+}
+
+#description {
+  font-size: 30px;
+}
