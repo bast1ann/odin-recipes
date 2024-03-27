@@ -1,24 +1,59 @@
+html {
+  box-sizing: border-box;
+}
+
 * {
   font-family: "Courier New", "Times New Roman", sans-serif;
-  font-size: 20px;
-  color: green;
+  color: black;
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
 }
 
-.title {
+.title-container {
+  text-align: center;
+  width: 60%;
+  margin: 20px auto;
+  padding: 10px;
+  border: 10px double black;
+  border-radius: 15px;
+}
+
+h1 {
   font-size: 40px;
+  color: orange;
 }
 
-.random-class-1 .random-class-2 .random-class-3{
-  color: cyan;
+.recipes-container {
+  text-align: center;
+  width: 60%;
+  margin: -10px auto;
+  padding: 10px 0;
 }
 
-a {
+ul {
+  list-style-type: none;
+}
+
+li {
   background-color: orange;
-  color: white;
+  margin-bottom: 10px;
+  padding: 10px;
+  border: 2px solid black;
+  border-radius: 15px;
+  margin-left: 0;
+  margin-right: 0;
 }
 
-.index-link {
-  font-weight: bold;
-  color: blue;
+li:last-child {
+  margin-bottom: 0;
 }
+
+.recipe-text {
+  color: white;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+
 
